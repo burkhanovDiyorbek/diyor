@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aware {
+  background-image: url('/images /radu-florin-CwTBt6jyagQ-unsplash 1.png');
+  background-repeat: no-repeat;
+  background: cover;
+  background-size: 100%;
+  width: 1430px;
+  padding: 90px 100px;
+  height: 700px;
+}
+.aware h1{
+  padding-bottom: 40px;
+  padding-top: 180px ;
+  font-size: 70px;
+  color: forestgreen;
+}
+.aware  p{
+  padding-bottom: 80px;
+}
+.aware button{
+  width: 180px;
+  height: 50px;
+  background: forestgreen;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+p{
+  font-family: 'Nunito', sans-serif;
+}
+.nav {
+  display: flex;
+  width: 1430px;
+  justify-content: space-around;
+  padding: 10px 20px;
+  padding-top: 18px;
+  height: 60px;
+    padding-left: 120px;
+
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding-top: 13px;
+}
+.nav ul a{
+  text-decoration: none;
+  color: midnightblue;;
+  padding: 0 20px;
+}
+.nav button{
+  border: none;
+  outline: none;
+  width: 130px;
+  height: 80%;
+  font-weight: 800;
+  font-size: 18px;
+  background: transparent;
+}
+.nav h2{
+  font-size: 30px;
+  color: forestgreen;
+}
+.nav button:nth-child(2){
+  color: #fff;
+  background-color: forestgreen;
+}
+.understand {
+  width: 1430px;
+  display: flex;
+  margin: auto;
+  padding: 50px;
+}
+.works{
+  width: 45%;
+  height: auto;
+  margin-left: 150px;
+}
+.works h2{
+  padding-top: 15px;
+  font-size: 35px;
+  color: forestgreen;
+  width: 110%;
+}
+.understand  p:nth-child(2){
+  width: 60%;
+  padding: 30px 50px;
+  margin-left: 200px;
+}
+.numbers{
+  display: flex;
+  width: 1430px;
+  justify-content: space-around;
+}
+.numbTwo{
+  margin-top: 300px;
+}
+.numbers h1{
+  font-size: 40px;
+  color: rgba(0,240,0,0.4);
+  position: relative;
+  top: 30px;
+  font-size: 90px;
+  opacity: 0.7;
+  z-index: -1;
+}
+.numbOne {
+  margin-left: 131px;
+  margin-right: 50px;
+}
+.numbThree{
+  margin-left: 50px;
+}
+.numbers img {
+  margin-top: 40px;
+}
+.numbers h3{
+  position: relative;
+  top: -10px;
+  font-size: 30px;
+  padding-left: 15px;
+}
+.hear{
+  padding: 50px 100px;
+  margin-top: 90px;
+  width: 1430px;
+  height: 700px;
+  background: rgba(43, 79, 7, 1)
+}
+.hear-img img:nth-child(2){
+  position: absolute;
+  z-index: 100;
+  right: -9%;
+  top: 2770px;
+}
+.hear-img{
+  margin-top: 100px;
+  margin-left:450px;
+}
+.hearText {
+  top: 2570px;
+  position: absolute;
+  color: #fff;
+}
+.hearText h2{
+  padding: 30px 0;
+  font-size: 27px;
+}
+.hearText p{
+  padding: 25px 0;
+}
+.hearText button{
+  width: 200px;
+  height: 50px;
+  color:#fff;
+  border: none;
+  background: forestgreen;
+  margin: 35px 0;
+}
+.stress {
+  display: flex;
+  padding: 100px 200px;
+  width: 1230px;
+}
+.stress-img{
+  width: 40%;
+  height: 500px;
+  background: rgba(20, 190, 40, 0.4)
+}
+.stress-img img:nth-child(1){
+  position: relative;
+  bottom: 75px;
+  overflow: hidden;
+}
+.stress-box{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  background: #fff;
+  top: 3700px;
+  left: 50px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px  10px 10px 10px rgba(0,0,0,0.04),
+              -10px -10px 5px  rgba(0,0,0,0.04);
+}
+.stress-box img {
+  border-radius: 50%;
+}
+.stress-box h4{
+  padding: 20px 0;
+}
+.stress-box li{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.stress-text{
+  position: absolute;
+  left: 900px;
+  width: 60%;
+}
+.stress-text h1{
+  color: forestgreen;
+  margin-top: 40px;
+}
+.stress-text p{
+  margin-top: 30px;
+  opacity: 0.8;
+}
+.stress-text button{
+  background: forestgreen;
+  color: #fff;
+  border: none;
+  width: 200px;
+  margin-top: 50px;
+  height: 50px;
+}
+.footer {
+  width: 1430px;
+  height: 400px;
+  background: rgba(43, 79, 7, 1);
+  margin-top: 200px;
+  padding: 100px 100px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px
+}
+.footer li{
+  list-style: none;
+  padding: 20px 10px;
+  font-size: 20px;
+}
